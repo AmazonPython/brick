@@ -1,0 +1,23 @@
+{
+    "name": "nova/brick",
+    "description": "A simple and light framework for PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nova",
+            "email": "ada@lunanova.top"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Models\\": "app/models"
+        }
+    }
+}
