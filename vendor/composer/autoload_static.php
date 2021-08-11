@@ -11,6 +11,10 @@ class ComposerStaticInit2bf4769d8844a8d5e2044c3c2f1cf594
         array (
             'NoahBuscher\\Macaw\\' => 18,
         ),
+        'M' => 
+        array (
+            'Medoo\\' => 6,
+        ),
         'A' => 
         array (
             'App\\Controllers\\' => 16,
@@ -21,6 +25,10 @@ class ComposerStaticInit2bf4769d8844a8d5e2044c3c2f1cf594
         'NoahBuscher\\Macaw\\' => 
         array (
             0 => __DIR__ . '/..' . '/noahbuscher/macaw',
+        ),
+        'Medoo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/catfan/medoo/src',
         ),
         'App\\Controllers\\' => 
         array (

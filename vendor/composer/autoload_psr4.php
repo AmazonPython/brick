@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'NoahBuscher\\Macaw\\' => array($vendorDir . '/noahbuscher/macaw'),
+    'Medoo\\' => array($vendorDir . '/catfan/medoo/src'),
     'App\\Controllers\\' => array($baseDir . '/app/controllers'),
 );
